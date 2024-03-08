@@ -1,6 +1,7 @@
 package controllers
 
 import java.sql._
+import anorm._
 import javax.inject._
 import play.api._
 import play.api.mvc._

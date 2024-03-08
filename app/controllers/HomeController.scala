@@ -15,15 +15,11 @@ class HomeController @Inject() (db: Database, cc: MessagesControllerComponents)
     extends MessagesAbstractController(cc) {
 
   def index() = Action { implicit request =>
-    try {
       db.withConnection { implicit conn =>
         val result:List[String] = SQL("SELECT * FROM people").as(SqlParser.str("name").*)
-        Ok(views.html.index(result))
+        Ok(views.html.index("people data",result))
       }
-    } catch {
-      case e: SQLException => msg = "exception: " + e.getMessage
-    }
-    Ok(views.html.index(msg))
+    
   }
 
   def add() = Action { implicit request =>

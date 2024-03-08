@@ -14,15 +14,10 @@ class HomeController @Inject() (db: Database, cc: MessagesControllerComponents)
     extends MessagesAbstractController(cc) {
 
   def index() = Action { implicit request =>
-    var msg = "database record:<br><ul>"
     try {
-      db.withConnection { conn =>
-        val stmt = conn.createStatement
-        val rs = stmt.executeQuery("SELECT * FROM people")
-        while (rs.next) {
-          msg += "<li>" + rs.getInt("id") + ":" + rs.getString("name") + "</li>"
-        }
-        msg += "</ul>"
+      db.withConnection { implicit conn =>
+        val result:List[String] = SQL("SELECT * FROM people").as(SqlParser.str("name").*)
+        Ok(views.html.index(result))
       }
     } catch {
       case e: SQLException => msg = "exception: " + e.getMessage

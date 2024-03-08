@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "play-scala-start-study-build-build",
-        "directory": "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project",
-        "workspaceDir": "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project",
+        "directory": "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project",
+        "workspaceDir": "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project",
         "sources": [
-            "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\src\\main\\scala",
-            "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\src\\main\\scala-2.12",
-            "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\src\\main\\scala-2",
-            "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\src\\main\\java",
-            "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\src\\main\\scala-sbt-1.0",
-            "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
+            "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\src\\main\\scala",
+            "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\src\\main\\scala-2.12",
+            "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\src\\main\\scala-2",
+            "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\src\\main\\java",
+            "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\src\\main\\scala-sbt-1.0",
+            "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -103,11 +103,11 @@
             "C:\\Users\\katsu\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3.jar",
             "C:\\Users\\katsu\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.2\\config-1.4.2.jar"
         ],
-        "out": "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\.bloop\\play-scala-start-study-build-build",
-        "classesDir": "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\.bloop\\play-scala-start-study-build-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\.bloop\\play-scala-start-study-build-build",
+        "classesDir": "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\.bloop\\play-scala-start-study-build-build\\scala-2.12\\sbt-1.0\\classes",
         "resources": [
-            "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\src\\main\\resources",
-            "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\src\\main\\resources",
+            "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -213,22 +213,22 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files\\Java\\jdk-20",
+                "home": "C:\\Program Files\\Java\\jdk-17",
                 "options": [
-                    "-Duser.dir=C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project"
+                    "-Duser.dir=C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project"
                 ]
             },
             "mainClass": [
                 
             ],
             "runtimeConfig": {
-                "home": "C:\\Program Files\\Java\\jdk-20",
+                "home": "C:\\Program Files\\Java\\jdk-17",
                 "options": [
-                    "-Duser.dir=C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project"
+                    "-Duser.dir=C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project"
                 ]
             },
             "classpath": [
-                "C:\\Users\\katsu\\Desktop\\projects\\scala-test\\play-scala-start-study\\project\\project\\.bloop\\play-scala-start-study-build-build\\scala-2.12\\sbt-1.0\\classes",
+                "C:\\Users\\katsu\\OneDrive\\Desktop\\works\\play-scala-start-study\\project\\project\\.bloop\\play-scala-start-study-build-build\\scala-2.12\\sbt-1.0\\classes",
                 "C:\\Users\\katsu\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.15\\sbt-bloop_2.12_1.0-1.5.15.jar",
                 "C:\\Users\\katsu\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\bloop-config_2.12\\1.5.5\\bloop-config_2.12-1.5.5.jar",
                 "C:\\Users\\katsu\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\plokhotnyuk\\jsoniter-scala\\jsoniter-scala-core_2.12\\2.4.0\\jsoniter-scala-core_2.12-2.4.0.jar",

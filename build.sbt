@@ -12,7 +12,7 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.0
 libraryDependencies += "com.h2database" % "h2" % "1.4.200"
 libraryDependencies += evolutions
 libraryDependencies +=jdbc
-
+libraryDependencies += "org.playframework.anorm" %% "anorm" % "2.6.5"
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.example.controllers._"
 

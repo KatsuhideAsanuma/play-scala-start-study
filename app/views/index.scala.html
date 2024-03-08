@@ -1,5 +1,10 @@
-@(message: String)
+@(message: String,result:List[String])
 
 @main("Welcome to Play") {
   <p>@Html(message)</p>
+  <ul>
+    @for(item<-result){
+      <li>@item</li>
+    }
+  </ul>
 }

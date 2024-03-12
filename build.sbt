@@ -13,6 +13,7 @@ libraryDependencies += "com.h2database" % "h2" % "1.4.200"
 libraryDependencies += evolutions
 libraryDependencies +=jdbc
 
+Test / fork := true
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.example.controllers._"
 
